@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Planda
+//  Planda_for_ipad
 //
 //  Created by Vik Denic on 11/28/17.
 //  Copyright © 2017 nekturlabs. All rights reserved.
