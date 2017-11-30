@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F51D8D751FCF8A4400415DA2 /* MonthTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D8D741FCF8A4400415DA2 /* MonthTableViewController.swift */; };
 		F51D8D771FCFE4EE00415DA2 /* ListEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D8D761FCFE4EE00415DA2 /* ListEntryTableViewController.swift */; };
+		F520BAD01FD0BEDE003073AC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520BACF1FD0BEDE003073AC /* Extensions.swift */; };
 		F5EEE1291FCE3DFA006B47C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EEE1281FCE3DFA006B47C6 /* AppDelegate.swift */; };
 		F5EEE12E1FCE3DFA006B47C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE12C1FCE3DFA006B47C6 /* Main.storyboard */; };
 		F5EEE1301FCE3DFA006B47C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE12F1FCE3DFA006B47C6 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		F51D8D741FCF8A4400415DA2 /* MonthTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthTableViewController.swift; sourceTree = "<group>"; };
 		F51D8D761FCFE4EE00415DA2 /* ListEntryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEntryTableViewController.swift; sourceTree = "<group>"; };
+		F520BACF1FD0BEDE003073AC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F5EEE1251FCE3DFA006B47C6 /* Planda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EEE1281FCE3DFA006B47C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5EEE12D1FCE3DFA006B47C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F520BAD11FD0BEE3003073AC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F520BACF1FD0BEDE003073AC /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		F5EEE11C1FCE3DFA006B47C6 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +127,7 @@
 				F5EEE12F1FCE3DFA006B47C6 /* Assets.xcassets */,
 				F5EEE1311FCE3DFA006B47C6 /* LaunchScreen.storyboard */,
 				F5EEE1341FCE3DFA006B47C6 /* Info.plist */,
+				F520BAD11FD0BEE3003073AC /* Utilities */,
 			);
 			path = Planda;
 			sourceTree = "<group>";
@@ -331,6 +342,7 @@
 			files = (
 				F51D8D771FCFE4EE00415DA2 /* ListEntryTableViewController.swift in Sources */,
 				F5EEE1921FCE423E006B47C6 /* MainTabBarController.swift in Sources */,
+				F520BAD01FD0BEDE003073AC /* Extensions.swift in Sources */,
 				F5EEE1291FCE3DFA006B47C6 /* AppDelegate.swift in Sources */,
 				F5EEE1971FCE4275006B47C6 /* WeekViewController.swift in Sources */,
 				F51D8D751FCF8A4400415DA2 /* MonthTableViewController.swift in Sources */,

@@ -12,9 +12,7 @@ class MonthTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+        self.title = Date().toMonthYearString()
     }
     
     // MARK: - Table view data source
@@ -22,7 +20,9 @@ class MonthTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 0: return "Plan"
-        case 1: return "Review"
+        case 1: return "Mindset"
+        case 2: return nil
+        case 3: return "Review"
         default: return nil
         }
     }
