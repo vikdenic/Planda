@@ -12,7 +12,7 @@ class MonthTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = Date().toMonthYearString()
+        self.navigationItem.title = Date().toMonthYearString()
     }
     
     // MARK: - Table view data source
@@ -21,8 +21,8 @@ class MonthTableViewController: UITableViewController {
         switch section {
         case 0: return "Plan"
         case 1: return "Mindset"
-        case 2: return nil
-        case 3: return "Review"
+        case 2: return "Review"
+        case 3: return nil
         default: return nil
         }
     }
