@@ -1,27 +1,31 @@
 //
-//  MonthTableViewController.swift
+//  WeekTableViewController.swift
 //  Planda
 //
-//  Created by Vik Denic on 11/29/17.
+//  Created by Vik Denic on 11/30/17.
 //  Copyright © 2017 nekturlabs. All rights reserved.
 //
 
 import UIKit
 
-class MonthTableViewController: UITableViewController {
+class WeekTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = Date().toMonthYearString()
+
+        // Uncomment the following line to preserve selection between presentations
+        // self.clearsSelectionOnViewWillAppear = false
+
+        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-    
+
     // MARK: - Table view data source
-    
+
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
-        case 0: return "Plan"
-        case 1: return "Mindset"
-        case 2: return "Review"
+        case 0: return "Planning Upcoming Week"
+        case 3: return "Review of Last Week"
         default: return nil
         }
     }

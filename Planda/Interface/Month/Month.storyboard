@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Month-->
+        <!--Month Table View Controller-->
         <scene sceneID="QX8-JP-65o">
             <objects>
                 <tableViewController id="5qs-bD-8Ou" customClass="MonthTableViewController" customModule="Planda" customModuleProvider="target" sceneMemberID="viewController">
@@ -161,7 +161,6 @@
                             <outlet property="delegate" destination="5qs-bD-8Ou" id="wcP-fY-Smh"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Month" id="BrV-7j-Gzd"/>
                     <navigationItem key="navigationItem" id="5Qx-Dx-fKe"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
@@ -302,7 +301,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Onj-Rx-C90" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1417" y="62"/>
+            <point key="canvasLocation" x="1393" y="62"/>
         </scene>
         <!--Month-->
         <scene sceneID="bkt-Gd-Utm">
@@ -310,6 +309,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YmF-0d-5Un" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Month" id="j3J-48-K1N"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fYf-ds-NNt">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -321,7 +321,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eMk-zV-HMv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6" y="62"/>
+            <point key="canvasLocation" x="36" y="62"/>
         </scene>
     </scenes>
 </document>
