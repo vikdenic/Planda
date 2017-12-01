@@ -11,6 +11,7 @@
 		F51D8D771FCFE4EE00415DA2 /* ListEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D8D761FCFE4EE00415DA2 /* ListEntryTableViewController.swift */; };
 		F520BAD01FD0BEDE003073AC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520BACF1FD0BEDE003073AC /* Extensions.swift */; };
 		F520BAD31FD0C411003073AC /* WeekTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520BAD21FD0C411003073AC /* WeekTableViewController.swift */; };
+		F5E387F21FD1DE8E006E746B /* DayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E387F11FD1DE8E006E746B /* DayTableViewController.swift */; };
 		F5EEE1291FCE3DFA006B47C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EEE1281FCE3DFA006B47C6 /* AppDelegate.swift */; };
 		F5EEE12E1FCE3DFA006B47C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE12C1FCE3DFA006B47C6 /* Main.storyboard */; };
 		F5EEE1301FCE3DFA006B47C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE12F1FCE3DFA006B47C6 /* Assets.xcassets */; };
@@ -25,7 +26,6 @@
 		F5EEE18D1FCE4048006B47C6 /* Month.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE18C1FCE4048006B47C6 /* Month.storyboard */; };
 		F5EEE18F1FCE4053006B47C6 /* Week.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE18E1FCE4053006B47C6 /* Week.storyboard */; };
 		F5EEE1921FCE423E006B47C6 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EEE1911FCE423E006B47C6 /* MainTabBarController.swift */; };
-		F5EEE1951FCE4268006B47C6 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EEE1941FCE4268006B47C6 /* DayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,7 @@
 		F51D8D761FCFE4EE00415DA2 /* ListEntryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEntryTableViewController.swift; sourceTree = "<group>"; };
 		F520BACF1FD0BEDE003073AC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F520BAD21FD0C411003073AC /* WeekTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTableViewController.swift; sourceTree = "<group>"; };
+		F5E387F11FD1DE8E006E746B /* DayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTableViewController.swift; sourceTree = "<group>"; };
 		F5EEE1251FCE3DFA006B47C6 /* Planda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EEE1281FCE3DFA006B47C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5EEE12D1FCE3DFA006B47C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		F5EEE18C1FCE4048006B47C6 /* Month.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Month.storyboard; sourceTree = "<group>"; };
 		F5EEE18E1FCE4053006B47C6 /* Week.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Week.storyboard; sourceTree = "<group>"; };
 		F5EEE1911FCE423E006B47C6 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		F5EEE1941FCE4268006B47C6 /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				F5EEE18A1FCE402E006B47C6 /* Day.storyboard */,
-				F5EEE1941FCE4268006B47C6 /* DayViewController.swift */,
+				F5E387F11FD1DE8E006E746B /* DayTableViewController.swift */,
 			);
 			path = Day;
 			sourceTree = "<group>";
@@ -344,9 +344,9 @@
 				F5EEE1921FCE423E006B47C6 /* MainTabBarController.swift in Sources */,
 				F520BAD01FD0BEDE003073AC /* Extensions.swift in Sources */,
 				F520BAD31FD0C411003073AC /* WeekTableViewController.swift in Sources */,
+				F5E387F21FD1DE8E006E746B /* DayTableViewController.swift in Sources */,
 				F5EEE1291FCE3DFA006B47C6 /* AppDelegate.swift in Sources */,
 				F51D8D751FCF8A4400415DA2 /* MonthTableViewController.swift in Sources */,
-				F5EEE1951FCE4268006B47C6 /* DayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
