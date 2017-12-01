@@ -11,8 +11,7 @@ import Foundation
 extension Date {
     func toMonthYearString() -> String {
         let format = DateFormatter()
-        format.dateFormat = "MMMM yy"
-        format.timeZone = TimeZone(abbreviation: "UTC")
+        format.dateFormat = "MMMM yyyy"
         return format.string(from: self)
     }
 }
