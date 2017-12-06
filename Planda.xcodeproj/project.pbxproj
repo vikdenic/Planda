@@ -14,6 +14,7 @@
 		F51D8D771FCFE4EE00415DA2 /* ListEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D8D761FCFE4EE00415DA2 /* ListEntryTableViewController.swift */; };
 		F520BAD01FD0BEDE003073AC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520BACF1FD0BEDE003073AC /* Extensions.swift */; };
 		F520BAD31FD0C411003073AC /* WeekTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520BAD21FD0C411003073AC /* WeekTableViewController.swift */; };
+		F55BB9B51FD894100051C9BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F55BB9B41FD894100051C9BD /* GoogleService-Info.plist */; };
 		F5E387F21FD1DE8E006E746B /* DayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E387F11FD1DE8E006E746B /* DayTableViewController.swift */; };
 		F5EEE1291FCE3DFA006B47C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EEE1281FCE3DFA006B47C6 /* AppDelegate.swift */; };
 		F5EEE12E1FCE3DFA006B47C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE12C1FCE3DFA006B47C6 /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 		F51D8D761FCFE4EE00415DA2 /* ListEntryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEntryTableViewController.swift; sourceTree = "<group>"; };
 		F520BACF1FD0BEDE003073AC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F520BAD21FD0C411003073AC /* WeekTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTableViewController.swift; sourceTree = "<group>"; };
+		F55BB9B41FD894100051C9BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F5E387F11FD1DE8E006E746B /* DayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTableViewController.swift; sourceTree = "<group>"; };
 		F5EEE1251FCE3DFA006B47C6 /* Planda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EEE1281FCE3DFA006B47C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				F5EEE12F1FCE3DFA006B47C6 /* Assets.xcassets */,
 				F5EEE1311FCE3DFA006B47C6 /* LaunchScreen.storyboard */,
 				F5EEE1341FCE3DFA006B47C6 /* Info.plist */,
+				F55BB9B41FD894100051C9BD /* GoogleService-Info.plist */,
 				F520BAD11FD0BEE3003073AC /* Utilities */,
 			);
 			path = Planda;
@@ -362,6 +365,7 @@
 				F5EEE12E1FCE3DFA006B47C6 /* Main.storyboard in Resources */,
 				F5EEE18F1FCE4053006B47C6 /* Week.storyboard in Resources */,
 				F5EEE18B1FCE402E006B47C6 /* Day.storyboard in Resources */,
+				F55BB9B51FD894100051C9BD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
