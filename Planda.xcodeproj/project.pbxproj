@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74509C7D461C46D33318C5C8 /* Pods_Planda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AAA1122FA909F5D8C66F82 /* Pods_Planda.framework */; };
+		B6ECF17E474C3081CA5F37B6 /* Pods_Planda_for_ipad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B34672D4910D676DFB25FA /* Pods_Planda_for_ipad.framework */; };
+		D69A959E30D51B5C5CDBB1EB /* Pods_PlandaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD3ACF55C545AC5375D976E6 /* Pods_PlandaTests.framework */; };
 		F51D8D751FCF8A4400415DA2 /* MonthTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D8D741FCF8A4400415DA2 /* MonthTableViewController.swift */; };
 		F51D8D771FCFE4EE00415DA2 /* ListEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D8D761FCFE4EE00415DA2 /* ListEntryTableViewController.swift */; };
 		F520BAD01FD0BEDE003073AC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520BACF1FD0BEDE003073AC /* Extensions.swift */; };
@@ -39,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A3F0B638121EA92A3DD7ECC /* Pods-Planda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Planda/Pods-Planda.debug.xcconfig"; sourceTree = "<group>"; };
+		20B34672D4910D676DFB25FA /* Pods_Planda_for_ipad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Planda_for_ipad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AAA1122FA909F5D8C66F82 /* Pods_Planda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Planda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E754344CF10BDE16D8A8E4 /* Pods-PlandaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlandaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlandaTests/Pods-PlandaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6665AB0D40441C7471CB8264 /* Pods-Planda_for_ipad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planda_for_ipad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Planda_for_ipad/Pods-Planda_for_ipad.debug.xcconfig"; sourceTree = "<group>"; };
+		986DB1F0F25ED7399A78BBA0 /* Pods-Planda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planda.release.xcconfig"; path = "Pods/Target Support Files/Pods-Planda/Pods-Planda.release.xcconfig"; sourceTree = "<group>"; };
+		A580DF0B14A64FB2FC443AD6 /* Pods-Planda_for_ipad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planda_for_ipad.release.xcconfig"; path = "Pods/Target Support Files/Pods-Planda_for_ipad/Pods-Planda_for_ipad.release.xcconfig"; sourceTree = "<group>"; };
+		AD3ACF55C545AC5375D976E6 /* Pods_PlandaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlandaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2F115A3EF5EC1E8DEE3924 /* Pods-PlandaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlandaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlandaTests/Pods-PlandaTests.release.xcconfig"; sourceTree = "<group>"; };
 		F51D8D741FCF8A4400415DA2 /* MonthTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthTableViewController.swift; sourceTree = "<group>"; };
 		F51D8D761FCFE4EE00415DA2 /* ListEntryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEntryTableViewController.swift; sourceTree = "<group>"; };
 		F520BACF1FD0BEDE003073AC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -71,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74509C7D461C46D33318C5C8 /* Pods_Planda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69A959E30D51B5C5CDBB1EB /* Pods_PlandaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,12 +99,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6ECF17E474C3081CA5F37B6 /* Pods_Planda_for_ipad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		621B23A12CD78A586D3596B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29AAA1122FA909F5D8C66F82 /* Pods_Planda.framework */,
+				AD3ACF55C545AC5375D976E6 /* Pods_PlandaTests.framework */,
+				20B34672D4910D676DFB25FA /* Pods_Planda_for_ipad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F1A8A8F9621E2B0A54D52D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A3F0B638121EA92A3DD7ECC /* Pods-Planda.debug.xcconfig */,
+				986DB1F0F25ED7399A78BBA0 /* Pods-Planda.release.xcconfig */,
+				31E754344CF10BDE16D8A8E4 /* Pods-PlandaTests.debug.xcconfig */,
+				EE2F115A3EF5EC1E8DEE3924 /* Pods-PlandaTests.release.xcconfig */,
+				6665AB0D40441C7471CB8264 /* Pods-Planda_for_ipad.debug.xcconfig */,
+				A580DF0B14A64FB2FC443AD6 /* Pods-Planda_for_ipad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F520BAD11FD0BEE3003073AC /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +144,8 @@
 				F5EEE1791FCE3F13006B47C6 /* Planda_for_ipad */,
 				F5EEE13C1FCE3DFA006B47C6 /* PlandaTests */,
 				F5EEE1261FCE3DFA006B47C6 /* Products */,
+				6F1A8A8F9621E2B0A54D52D6 /* Pods */,
+				621B23A12CD78A586D3596B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5EEE1421FCE3DFA006B47C6 /* Build configuration list for PBXNativeTarget "Planda" */;
 			buildPhases = (
+				6C77D06F3DE180DBAF652F40 /* [CP] Check Pods Manifest.lock */,
 				F5EEE1211FCE3DFA006B47C6 /* Sources */,
 				F5EEE1221FCE3DFA006B47C6 /* Frameworks */,
 				F5EEE1231FCE3DFA006B47C6 /* Resources */,
+				B31304BE08EB9CBC8875041C /* [CP] Embed Pods Frameworks */,
+				324A6778ADD79A953172258C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5EEE1451FCE3DFA006B47C6 /* Build configuration list for PBXNativeTarget "PlandaTests" */;
 			buildPhases = (
+				871480FAA80F7CBEC6AD2139 /* [CP] Check Pods Manifest.lock */,
 				F5EEE1351FCE3DFA006B47C6 /* Sources */,
 				F5EEE1361FCE3DFA006B47C6 /* Frameworks */,
 				F5EEE1371FCE3DFA006B47C6 /* Resources */,
+				467DD4D1D06F096EEA880AD6 /* [CP] Embed Pods Frameworks */,
+				6EDB7717C7ED16FDB3A29D3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,9 +290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5EEE1871FCE3F13006B47C6 /* Build configuration list for PBXNativeTarget "Planda_for_ipad" */;
 			buildPhases = (
+				C26EF2970F04B523D270D5C7 /* [CP] Check Pods Manifest.lock */,
 				F5EEE1741FCE3F13006B47C6 /* Sources */,
 				F5EEE1751FCE3F13006B47C6 /* Frameworks */,
 				F5EEE1761FCE3F13006B47C6 /* Resources */,
+				0F6157CD79A2FBB775A95808 /* [CP] Embed Pods Frameworks */,
+				FB30DC43055083B2439C1170 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -334,6 +383,163 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F6157CD79A2FBB775A95808 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Planda_for_ipad/Pods-Planda_for_ipad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		324A6778ADD79A953172258C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Planda/Pods-Planda-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		467DD4D1D06F096EEA880AD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PlandaTests/Pods-PlandaTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlandaTests/Pods-PlandaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C77D06F3DE180DBAF652F40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Planda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EDB7717C7ED16FDB3A29D3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlandaTests/Pods-PlandaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		871480FAA80F7CBEC6AD2139 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlandaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B31304BE08EB9CBC8875041C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Planda/Pods-Planda-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Planda/Pods-Planda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C26EF2970F04B523D270D5C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Planda_for_ipad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB30DC43055083B2439C1170 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Planda_for_ipad/Pods-Planda_for_ipad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F5EEE1211FCE3DFA006B47C6 /* Sources */ = {
@@ -522,6 +728,7 @@
 		};
 		F5EEE1431FCE3DFA006B47C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A3F0B638121EA92A3DD7ECC /* Pods-Planda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +745,7 @@
 		};
 		F5EEE1441FCE3DFA006B47C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986DB1F0F25ED7399A78BBA0 /* Pods-Planda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +762,7 @@
 		};
 		F5EEE1461FCE3DFA006B47C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E754344CF10BDE16D8A8E4 /* Pods-PlandaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -571,6 +780,7 @@
 		};
 		F5EEE1471FCE3DFA006B47C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE2F115A3EF5EC1E8DEE3924 /* Pods-PlandaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -588,6 +798,7 @@
 		};
 		F5EEE1881FCE3F13006B47C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6665AB0D40441C7471CB8264 /* Pods-Planda_for_ipad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -603,6 +814,7 @@
 		};
 		F5EEE1891FCE3F13006B47C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A580DF0B14A64FB2FC443AD6 /* Pods-Planda_for_ipad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
