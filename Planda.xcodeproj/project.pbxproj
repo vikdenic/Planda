@@ -67,6 +67,7 @@
 		F55BB9BB1FD903A30051C9BD /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 		F55BB9BD1FD912660051C9BD /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		F55BB9BF1FD912740051C9BD /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		F55BB9C21FD91E9D0051C9BD /* Planda.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Planda.entitlements; sourceTree = "<group>"; };
 		F5E387F11FD1DE8E006E746B /* DayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTableViewController.swift; sourceTree = "<group>"; };
 		F5EEE1251FCE3DFA006B47C6 /* Planda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EEE1281FCE3DFA006B47C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -193,6 +194,7 @@
 		F5EEE1271FCE3DFA006B47C6 /* Planda */ = {
 			isa = PBXGroup;
 			children = (
+				F55BB9C21FD91E9D0051C9BD /* Planda.entitlements */,
 				F5EEE1281FCE3DFA006B47C6 /* AppDelegate.swift */,
 				F5EEE1901FCE4215006B47C6 /* Interface */,
 				F5EEE12F1FCE3DFA006B47C6 /* Assets.xcassets */,
@@ -353,6 +355,11 @@
 					F5EEE1241FCE3DFA006B47C6 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					F5EEE1381FCE3DFA006B47C6 = {
 						CreatedOnToolsVersion = 9.1;
@@ -777,6 +784,7 @@
 			baseConfigurationReference = 1A3F0B638121EA92A3DD7ECC /* Pods-Planda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Planda/Planda.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3DJPBY6593;
 				INFOPLIST_FILE = Planda/Info.plist;
@@ -794,6 +802,7 @@
 			baseConfigurationReference = 986DB1F0F25ED7399A78BBA0 /* Pods-Planda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Planda/Planda.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3DJPBY6593;
 				INFOPLIST_FILE = Planda/Info.plist;
