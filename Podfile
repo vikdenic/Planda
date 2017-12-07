@@ -8,6 +8,7 @@ target 'Planda' do
   # Pods for Planda
   pod 'Firebase/Core'
   pod 'Firebase/Database'
+  pod 'Firebase/Auth'
 
   target 'PlandaTests' do
     inherit! :search_paths

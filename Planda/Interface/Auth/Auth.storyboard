@@ -27,6 +27,9 @@
                                             <segment title="Log In"/>
                                         </segments>
                                         <color key="tintColor" red="0.30588235289999999" green="0.66274509800000003" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="onSegmentTapped:" destination="WRX-N7-9Ka" eventType="valueChanged" id="GtJ-CR-HVg"/>
+                                        </connections>
                                     </segmentedControl>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7hK-En-fNi">
                                         <rect key="frame" x="0.0" y="38.5" width="375" height="60"/>
@@ -34,8 +37,8 @@
                                             <constraint firstAttribute="height" constant="60" id="Rin-4t-Bmi"/>
                                         </constraints>
                                         <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" textContentType="username"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sne-pD-A7f">
                                         <rect key="frame" x="0.0" y="109.5" width="375" height="60"/>
@@ -43,8 +46,8 @@
                                             <constraint firstAttribute="height" constant="60" id="MDm-4a-3pw"/>
                                         </constraints>
                                         <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vy0-XZ-xXi">
                                         <rect key="frame" x="0.0" y="180" width="375" height="60"/>
@@ -52,8 +55,12 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="QPK-9N-zgz"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Login"/>
+                                        <state key="normal" title="Sign Up"/>
+                                        <connections>
+                                            <action selector="onLoginTapped:" destination="WRX-N7-9Ka" eventType="touchUpInside" id="7NX-nN-q7v"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -70,6 +77,12 @@
                         <viewLayoutGuide key="safeArea" id="ibd-Zh-6qO"/>
                     </view>
                     <navigationItem key="navigationItem" id="qEq-kK-OK6"/>
+                    <connections>
+                        <outlet property="loginButton" destination="vy0-XZ-xXi" id="02l-0O-SQK"/>
+                        <outlet property="nameTextField" destination="7hK-En-fNi" id="xxV-BW-YwB"/>
+                        <outlet property="passwordTextField" destination="Sne-pD-A7f" id="AWk-D0-eCD"/>
+                        <outlet property="segmentedControl" destination="SpS-sh-8tA" id="9Gc-as-vly"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2So-ag-oru" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
