@@ -15,6 +15,9 @@
 		F520BAD01FD0BEDE003073AC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520BACF1FD0BEDE003073AC /* Extensions.swift */; };
 		F520BAD31FD0C411003073AC /* WeekTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520BAD21FD0C411003073AC /* WeekTableViewController.swift */; };
 		F55BB9B51FD894100051C9BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F55BB9B41FD894100051C9BD /* GoogleService-Info.plist */; };
+		F55BB9B71FD8C36B0051C9BD /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55BB9B61FD8C36B0051C9BD /* AuthViewController.swift */; };
+		F55BB9B91FD8C37F0051C9BD /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55BB9B81FD8C37F0051C9BD /* Auth.storyboard */; };
+		F55BB9BC1FD903A30051C9BD /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55BB9BB1FD903A30051C9BD /* K.swift */; };
 		F5E387F21FD1DE8E006E746B /* DayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E387F11FD1DE8E006E746B /* DayTableViewController.swift */; };
 		F5EEE1291FCE3DFA006B47C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EEE1281FCE3DFA006B47C6 /* AppDelegate.swift */; };
 		F5EEE12E1FCE3DFA006B47C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE12C1FCE3DFA006B47C6 /* Main.storyboard */; };
@@ -57,6 +60,9 @@
 		F520BACF1FD0BEDE003073AC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F520BAD21FD0C411003073AC /* WeekTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTableViewController.swift; sourceTree = "<group>"; };
 		F55BB9B41FD894100051C9BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F55BB9B61FD8C36B0051C9BD /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		F55BB9B81FD8C37F0051C9BD /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		F55BB9BB1FD903A30051C9BD /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 		F5E387F11FD1DE8E006E746B /* DayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTableViewController.swift; sourceTree = "<group>"; };
 		F5EEE1251FCE3DFA006B47C6 /* Planda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EEE1281FCE3DFA006B47C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,8 +141,18 @@
 			isa = PBXGroup;
 			children = (
 				F520BACF1FD0BEDE003073AC /* Extensions.swift */,
+				F55BB9BB1FD903A30051C9BD /* K.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F55BB9BA1FD8C3880051C9BD /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F55BB9B81FD8C37F0051C9BD /* Auth.storyboard */,
+				F55BB9B61FD8C36B0051C9BD /* AuthViewController.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		F5EEE11C1FCE3DFA006B47C6 = {
@@ -200,6 +216,7 @@
 		F5EEE1901FCE4215006B47C6 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				F55BB9BA1FD8C3880051C9BD /* Auth */,
 				F5EEE1931FCE4246006B47C6 /* Main */,
 				F5EEE19C1FCE42A9006B47C6 /* Month */,
 				F5EEE19B1FCE42A3006B47C6 /* Week */,
@@ -359,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55BB9B91FD8C37F0051C9BD /* Auth.storyboard in Resources */,
 				F5EEE1331FCE3DFA006B47C6 /* LaunchScreen.storyboard in Resources */,
 				F5EEE18D1FCE4048006B47C6 /* Month.storyboard in Resources */,
 				F5EEE1301FCE3DFA006B47C6 /* Assets.xcassets in Resources */,
@@ -554,10 +572,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55BB9BC1FD903A30051C9BD /* K.swift in Sources */,
 				F51D8D771FCFE4EE00415DA2 /* ListEntryTableViewController.swift in Sources */,
 				F5EEE1921FCE423E006B47C6 /* MainTabBarController.swift in Sources */,
 				F520BAD01FD0BEDE003073AC /* Extensions.swift in Sources */,
 				F520BAD31FD0C411003073AC /* WeekTableViewController.swift in Sources */,
+				F55BB9B71FD8C36B0051C9BD /* AuthViewController.swift in Sources */,
 				F5E387F21FD1DE8E006E746B /* DayTableViewController.swift in Sources */,
 				F5EEE1291FCE3DFA006B47C6 /* AppDelegate.swift in Sources */,
 				F51D8D751FCF8A4400415DA2 /* MonthTableViewController.swift in Sources */,

@@ -161,12 +161,18 @@
                             <outlet property="delegate" destination="5qs-bD-8Ou" id="wcP-fY-Smh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="5Qx-Dx-fKe"/>
+                    <navigationItem key="navigationItem" id="5Qx-Dx-fKe">
+                        <barButtonItem key="leftBarButtonItem" title="Settings" id="WIY-hv-pbe">
+                            <connections>
+                                <action selector="onLeftBarButtonTapped:" destination="5qs-bD-8Ou" id="pLE-CY-j6A"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cTz-mg-hKP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="711.20000000000005" y="61.619190404797607"/>
+            <point key="canvasLocation" x="793" y="62"/>
         </scene>
         <!--Goals-->
         <scene sceneID="csK-OK-O4H">
@@ -384,7 +390,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Onj-Rx-C90" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1393" y="62"/>
+            <point key="canvasLocation" x="1553" y="62"/>
         </scene>
         <!--Month-->
         <scene sceneID="bkt-Gd-Utm">

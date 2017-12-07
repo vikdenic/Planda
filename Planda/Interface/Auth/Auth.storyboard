@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="71t-Hg-qlY">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Auth View Controller-->
+        <scene sceneID="hvI-nP-wrL">
+            <objects>
+                <viewController storyboardIdentifier="AuthViewController" id="WRX-N7-9Ka" customClass="AuthViewController" customModule="Planda" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8RL-sE-0fJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4iY-nf-Db9">
+                                <rect key="frame" x="0.0" y="163.5" width="375" height="240"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="SpS-sh-8tA">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="29"/>
+                                        <segments>
+                                            <segment title="Sign Up"/>
+                                            <segment title="Log In"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.30588235289999999" green="0.66274509800000003" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7hK-En-fNi">
+                                        <rect key="frame" x="0.0" y="38.5" width="375" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="Rin-4t-Bmi"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sne-pD-A7f">
+                                        <rect key="frame" x="0.0" y="109.5" width="375" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="MDm-4a-3pw"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vy0-XZ-xXi">
+                                        <rect key="frame" x="0.0" y="180" width="375" height="60"/>
+                                        <color key="backgroundColor" red="0.30588235289999999" green="0.66274509800000003" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="QPK-9N-zgz"/>
+                                        </constraints>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Login"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="X0A-mH-29T"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ibd-Zh-6qO" firstAttribute="trailing" secondItem="4iY-nf-Db9" secondAttribute="trailing" id="LKM-vn-rFQ"/>
+                            <constraint firstItem="4iY-nf-Db9" firstAttribute="leading" secondItem="ibd-Zh-6qO" secondAttribute="leading" id="NKJ-bI-fnd"/>
+                            <constraint firstItem="4iY-nf-Db9" firstAttribute="centerY" secondItem="8RL-sE-0fJ" secondAttribute="centerY" constant="-50" id="bcK-fs-scb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ibd-Zh-6qO"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qEq-kK-OK6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2So-ag-oru" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="682" y="99"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gPR-lH-Wf1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="71t-Hg-qlY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eoX-tm-Z9k">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="WRX-N7-9Ka" kind="relationship" relationship="rootViewController" id="Z7X-nt-NJB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b9w-qK-jeg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-96" y="99.850074962518747"/>
+        </scene>
+    </scenes>
+</document>

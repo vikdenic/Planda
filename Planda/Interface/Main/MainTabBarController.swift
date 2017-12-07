@@ -13,5 +13,11 @@ class MainTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let authVC = UIViewController.storyboardInstance(storyboardId: K.Storyboard.Auth, restorationId: AuthViewController.className())
+        self.present(authVC, animated: true, completion: nil)
+    }
 
 }
