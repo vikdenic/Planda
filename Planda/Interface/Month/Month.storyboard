@@ -363,7 +363,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Goals" id="spV-fT-kc9">
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="0QM-ee-L4O"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="0QM-ee-L4O">
+                            <connections>
+                                <action selector="onSaveTapped:" destination="nxj-gh-I2V" id="I7N-rw-l21"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="fifthTextField" destination="swD-Fy-zYf" id="wCT-hd-7fx"/>
