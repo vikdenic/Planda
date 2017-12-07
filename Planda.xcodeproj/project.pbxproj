@@ -18,6 +18,8 @@
 		F55BB9B71FD8C36B0051C9BD /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55BB9B61FD8C36B0051C9BD /* AuthViewController.swift */; };
 		F55BB9B91FD8C37F0051C9BD /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55BB9B81FD8C37F0051C9BD /* Auth.storyboard */; };
 		F55BB9BC1FD903A30051C9BD /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55BB9BB1FD903A30051C9BD /* K.swift */; };
+		F55BB9BE1FD912660051C9BD /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55BB9BD1FD912660051C9BD /* SettingsTableViewController.swift */; };
+		F55BB9C01FD912740051C9BD /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55BB9BF1FD912740051C9BD /* Settings.storyboard */; };
 		F5E387F21FD1DE8E006E746B /* DayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E387F11FD1DE8E006E746B /* DayTableViewController.swift */; };
 		F5EEE1291FCE3DFA006B47C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EEE1281FCE3DFA006B47C6 /* AppDelegate.swift */; };
 		F5EEE12E1FCE3DFA006B47C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE12C1FCE3DFA006B47C6 /* Main.storyboard */; };
@@ -63,6 +65,8 @@
 		F55BB9B61FD8C36B0051C9BD /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		F55BB9B81FD8C37F0051C9BD /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		F55BB9BB1FD903A30051C9BD /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		F55BB9BD1FD912660051C9BD /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		F55BB9BF1FD912740051C9BD /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		F5E387F11FD1DE8E006E746B /* DayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTableViewController.swift; sourceTree = "<group>"; };
 		F5EEE1251FCE3DFA006B47C6 /* Planda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EEE1281FCE3DFA006B47C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +159,15 @@
 			path = Auth;
 			sourceTree = "<group>";
 		};
+		F55BB9C11FD9127A0051C9BD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F55BB9BF1FD912740051C9BD /* Settings.storyboard */,
+				F55BB9BD1FD912660051C9BD /* SettingsTableViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		F5EEE11C1FCE3DFA006B47C6 = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +234,7 @@
 				F5EEE19C1FCE42A9006B47C6 /* Month */,
 				F5EEE19B1FCE42A3006B47C6 /* Week */,
 				F5EEE19A1FCE429E006B47C6 /* Day */,
+				F55BB9C11FD9127A0051C9BD /* Settings */,
 			);
 			path = Interface;
 			sourceTree = "<group>";
@@ -382,6 +396,7 @@
 				F5EEE1301FCE3DFA006B47C6 /* Assets.xcassets in Resources */,
 				F5EEE12E1FCE3DFA006B47C6 /* Main.storyboard in Resources */,
 				F5EEE18F1FCE4053006B47C6 /* Week.storyboard in Resources */,
+				F55BB9C01FD912740051C9BD /* Settings.storyboard in Resources */,
 				F5EEE18B1FCE402E006B47C6 /* Day.storyboard in Resources */,
 				F55BB9B51FD894100051C9BD /* GoogleService-Info.plist in Resources */,
 			);
@@ -580,6 +595,7 @@
 				F520BAD01FD0BEDE003073AC /* Extensions.swift in Sources */,
 				F520BAD31FD0C411003073AC /* WeekTableViewController.swift in Sources */,
 				F55BB9B71FD8C36B0051C9BD /* AuthViewController.swift in Sources */,
+				F55BB9BE1FD912660051C9BD /* SettingsTableViewController.swift in Sources */,
 				F5E387F21FD1DE8E006E746B /* DayTableViewController.swift in Sources */,
 				F5EEE1291FCE3DFA006B47C6 /* AppDelegate.swift in Sources */,
 				F51D8D751FCF8A4400415DA2 /* MonthTableViewController.swift in Sources */,

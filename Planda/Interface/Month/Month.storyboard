@@ -8,6 +8,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Settings-->
+        <scene sceneID="wOM-JD-t4j">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Settings" id="koo-K4-Pmz" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AOg-B0-w6e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1332" y="-631"/>
+        </scene>
         <!--Month Table View Controller-->
         <scene sceneID="QX8-JP-65o">
             <objects>
@@ -162,9 +170,10 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="5Qx-Dx-fKe">
-                        <barButtonItem key="leftBarButtonItem" title="Settings" id="WIY-hv-pbe">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="WIY-hv-pbe">
                             <connections>
                                 <action selector="onLeftBarButtonTapped:" destination="5qs-bD-8Ou" id="pLE-CY-j6A"/>
+                                <segue destination="koo-K4-Pmz" kind="show" id="9pp-WY-TUg"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

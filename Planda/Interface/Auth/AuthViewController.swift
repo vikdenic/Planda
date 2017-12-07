@@ -26,23 +26,37 @@ class AuthViewController: UIViewController {
     }
     
     @IBAction func onLoginTapped(_ sender: UIButton) {
+        self.authenticate()
+    }
+
+    //MARK: Helpers
+    func authenticate() {
         if self.segmentedControl.selectedSegmentIndex == 0 {
-            Auth.auth().createUser(withEmail: self.nameTextField.text!, password: self.passwordTextField.text!) { (user, error) in
-                if let error = error {
-                    self.showAlert(fromError: error)
-                } else {
-                    print("created user")
-                }
-            }
+            self.register()
         } else {
-            Auth.auth().signIn(withEmail: self.nameTextField.text!, password: self.passwordTextField.text!) { (user, error) in
-                if let error = error {
-                    self.showAlert(fromError: error)
-                } else {
-                    print("logged in user")
-                }
+            self.login()
+        }
+    }
+    
+    func register() {
+        Auth.auth().createUser(withEmail: self.nameTextField.text!, password: self.passwordTextField.text!) { (user, error) in
+            if let error = error {
+                self.showAlert(fromError: error)
+            } else {
+                print("created user")
+                self.dismiss(animated: true, completion: nil)
             }
         }
     }
-
+    
+    func login() {
+        Auth.auth().signIn(withEmail: self.nameTextField.text!, password: self.passwordTextField.text!) { (user, error) in
+            if let error = error {
+                self.showAlert(fromError: error)
+            } else {
+                print("logged in user")
+                self.dismiss(animated: true, completion: nil)
+            }
+        }
+    }
 }
